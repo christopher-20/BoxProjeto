@@ -78,6 +78,63 @@ header{
 .imagem-link:hover{
     transform: scale(1.05);
 }
+.footer {
+  background: brown;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  animation: fadeInUp 0.8s ease-in;
+  box-shadow: 0px 3px 10px rgb(228, 31, 31);
+  margin-top: 100px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-link {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.footer-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Garante que a página ocupe a tela toda e empurre o footer para baixo */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body > .contaner {
+  flex: 1;
+}
 
 @media screen and (max-width: 730px){
     .nav-bar{
@@ -110,4 +167,11 @@ header{
     .open{
         display: block;
     }
+     .footer {
+    padding: 15px 10px;
+    margin-top: 125rem;
+  }
+  .footer-content {
+    font-size: 0.9rem;
+  }
 }
