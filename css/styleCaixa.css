@@ -1,0 +1,97 @@
+.caixaFoto{
+    gap: 25px;
+    margin-left: 15%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    position: relative;
+}
+.foto{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(214, 214, 211);
+    border-radius: 10px;
+    text-align: center;
+    color: brown;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+.infor{
+     width: 1000px;
+    height: 255px;
+    background-color: rgb(214, 214, 211);
+    border-radius: 10px;
+    text-align: center;
+    color: brown;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+.infor h3{
+    text-align: left;
+    display: flex;
+    margin-left: 20px;
+    padding: 3px;
+}
+.cor1{
+    color: black
+}
+
+#Observacao{
+    text-align: right;
+    margin-top: -180px;
+    margin-right: 40px;
+}
+.infor p{
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    
+}
+.caixaFoto img{
+    height: 570px;
+    width: 100%;
+    border-radius: 15px;
+}
+.footer-Caixa{
+    background: brown;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  animation: fadeInUp 0.8s ease-in;
+  box-shadow: 0px 3px 10px rgb(228, 31, 31);
+  margin-top: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 730px){
+    .caixaFoto{
+        margin-left: 3.5rem;
+    }
+    .foto{
+    width: 90%;
+    height: 400px;
+    }
+    .infor{
+     width: 90%;
+    height: 430px;
+    border-radius: 10px;
+    text-align: center;  
+}
+#Observacao{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 1rem;
+}
+.infor p{  
+    text-align: left;  
+    margin-left: 1.5rem;
+}
+.caixaFoto img{
+    height: 370px;
+    width: 100%;
+    border-radius: 15px;
+}
+.footer-Caixa {
+    padding: 15px 10px;
+    margin-top: 100px;
+  }
+}
