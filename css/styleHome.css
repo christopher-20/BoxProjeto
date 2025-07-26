@@ -85,7 +85,7 @@ header{
   padding: 20px;
   animation: fadeInUp 0.8s ease-in;
   box-shadow: 0px 3px 10px rgb(228, 31, 31);
-  margin-top: 100px;
+  margin-top: 5rem;
   width: 100%;
 }
 
@@ -136,7 +136,7 @@ body > .contaner {
   flex: 1;
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 850px){
     .nav-bar{
         padding: 1.5rem 4rem;
     }
@@ -169,9 +169,15 @@ body > .contaner {
     }
      .footer {
     padding: 15px 10px;
-    margin-top: 125rem;
+    margin-top: 45rem;
   }
   .footer-content {
     font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 624px){
+       .footer {
+    padding: 15px 10px;
+    margin-top: 126rem;
   }
 }

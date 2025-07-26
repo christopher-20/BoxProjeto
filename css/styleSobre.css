@@ -45,11 +45,24 @@
   }
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 850px){
     #mapa{
     height: 24rem;
 }
 .footer-Sobre{
-    margin-top: 180%;
+    margin-top: 40rem;
 }
+
+}
+@media screen and (max-width: 683px){
+       .footer-Sobre {
+    padding: 15px 10px;
+    margin-top: 43rem;
+  }
+}
+@media screen and (max-width: 547px){
+       .footer-Sobre {
+    padding: 15px 10px;
+    margin-top: 49rem;
+  }
 }

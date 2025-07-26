@@ -37,7 +37,7 @@
 
 #Observacao{
     text-align: right;
-    margin-top: -180px;
+    margin-top: 1.5rem;
     margin-right: 40px;
 }
 .infor p{
@@ -78,7 +78,7 @@
 }
 #Observacao{
     text-align: left;
-    margin-top: 50px;
+    margin-top: 1.5rem;
     margin-left: 1rem;
 }
 .infor p{  
